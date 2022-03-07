@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>calculetor div</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="containerChild">
+        <div class="display">
+          <di id="dis-his">0</di>
+          <div class="displayChild">
+            <div id="result">0</div>
+            <div id="dis-op"></div>
+          </div>
+        </div>
+        <div class="operator" onclick="setClr()">c</div>
+      </div>
+      <div class="containerChild">
+        <div>
+          <div class="number" onclick="setResult()">1</div>
+        </div>
+        <div>
+          <div class="number" onclick="setResult()">2</div>
+        </div>
+        <div>
+          <div class="number" onclick="setResult()">3</div>
+        </div>
+        <div>
+          <div class="operator" onclick="setOp()">/</div>
+        </div>
+      </div>
+      <div class="containerChild">
+        <div>
+          <div class="number" onclick="setResult()">4</div>
+        </div>
+        <div>
+          <div class="number" onclick="setResult()">5</div>
+        </div>
+        <div>
+          <div class="number" onclick="setResult()">6</div>
+        </div>
+        <div>
+          <div class="operator" onclick="setOp()">-</div>
+        </div>
+      </div>
+      <div class="containerChild">
+        <div>
+          <div class="number" onclick="setResult()">7</div>
+        </div>
+        <div>
+          <div class="number" onclick="setResult()">8</div>
+        </div>
+        <div>
+          <div class="number" onclick="setResult()">9</div>
+        </div>
+        <div>
+          <div class="operator" onclick="setOp()">+</div>
+        </div>
+      </div>
+      <div class="containerChild">
+        <div>
+          <div class="number" onclick="setResult()">.</div>
+        </div>
+        <div>
+          <div class="number" onclick="setResult()">0</div>
+        </div>
+        <div>
+          <div class="operator" onclick="setTotal()">=</div>
+        </div>
+        <div>
+          <div class="operator" onclick="setOp()">*</div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
